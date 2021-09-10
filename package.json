@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-estudio-krunica",
+  "version": "1.0.0",
+  "description": "Proyecto de landpage para taller y estudio de diseño Krunica",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --experimental-scope-hoisting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoSosa96/proyecto-estudio_krunica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoSosa96/proyecto-estudio_krunica/issues"
+  },
+  "homepage": "https://github.com/RodrigoSosa96/proyecto-estudio_krunica#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.38.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1"
+  }
+}
